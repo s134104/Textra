@@ -213,7 +213,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("MainActivity", "GET NUMBER OF MESSAGES TO X: " +  getContact("PHONENUMBERHERE").getMessages().size() );
         Log.i("MainActivity", "GET MESSAGE DATE TO X: " +  getContact("PHONENUMBERHERE").getMessages().get(7).getDate() + ", TYPE: " + getContact("PHONENUMBERHERE").getMessages().get(7).getType() );
 
-        for(int i = 0; i < getContact("61730299").getMessages().size(); i++) {
+        for(int i = 0; i < getContact("PHONENUMBERHERE").getMessages().size(); i++) {
             Log.i("MainActivity", "GET DATES: " + getContact("PHONENUMBERHERE").getMessages().get(i).getDate() + ", TYPE: " + getContact("PHONENUMBERHERE").getMessages().get(i).getType());
         }
 
